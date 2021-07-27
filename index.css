@@ -1,0 +1,112 @@
+body{
+  margin: 0;
+}
+.nav_container{
+  background-color:#60ab59 ;
+}
+.nav_brand{
+  padding: 1% 2% 1% 2%;
+}
+.nav_brand > a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size:20px;
+}
+.list{
+  padding-bottom: 2%;
+  text-align: right;
+}
+.list_item , .footer_item{
+  display: inline;
+  margin: 0 2% 0 2%;
+  font-size: 16px;
+  font-weight: bold;
+}
+.list_ele , .footer_ele{ 
+  text-decoration: none;
+  color: white;
+}
+
+.center_header{
+  margin: auto;
+  max-width: 500px;
+}
+.section{
+  padding : 2%;
+}
+.section_odd{
+  background-color: #F3F4F6;
+}
+.container_center{
+  margin: auto;
+  max-width:600px;
+}
+.container_heading{
+  text-align: center;
+}
+.container_content{
+  text-align: center;
+}
+.footer{
+  background-color: #60ab59;
+  margin-bottom: 0 ;
+}
+.footer_ele{
+  background-color: #60ab59;
+  margin:0;
+}
+.center_footer{
+  margin:auto;
+  max-width: 600px;
+  margin-bottom: 0;
+  padding:2%;
+}
+.footer_header , .footer_list{
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+.footer_list{
+  padding-left: 0;
+}
+
+
+/* Blog Css */
+.blog_heading ,.project_heading{
+  color: #6B7280;
+  text-align: center;
+  padding: 3% 0 3% 0 ;
+}
+.blog_heading_style ,.project_heading_style{
+  color:#60ab59
+}
+.blog_list , .project_list{
+  list-style: none;
+  padding-inline-start: 0px;
+}
+.blog_content,.project_content{
+  max-width: 50%;
+  margin:auto;
+  margin-bottom:5% ;
+}
+.blog-link,.project-link{
+  text-decoration: none;
+  background-color: #60ab59;
+  color: white;
+  padding:2%;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.blog-description , .project-description{
+  margin-bottom: 5%;
+}
+.github-link{
+  color:#60ab59 ;
+  background-color: white ;
+  border : 1px solid #60ab59 ;
+  border-radius: 5px ;
+  padding:2% ;
+  margin:1rem;
+}
+
